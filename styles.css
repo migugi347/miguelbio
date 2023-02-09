@@ -55,17 +55,36 @@ th {
 
 header {
     height: 300px;
-    background-image: url(mountains.jpg);
+    
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 2%;
+    overflow: hidden;
+   
 }
 
 header img {
-    height: 80px;
+    
+    position: relative;
+    margin: 0;
+	padding: 0;
+	background: #fff;
+	width: 70vw;
+    height: 50vh;
+    margin-top: 200px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
 }
+
+header:hover img{ 
+    margin-top: 0;
+}
+
 
 #pfp {
     width: 15rem;
@@ -73,6 +92,15 @@ header img {
     object-fit: cover;
     border-radius: 5%;
 }
+
+#logo {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 5%;
+    position: relative;
+}
+
 form {
     width: 500px;
     margin: 50px auto;
@@ -80,16 +108,17 @@ form {
     background-color: #ABD8ED;
     border: 1px solid #023047;
     border-radius: 5px;
-  }
-  
-  label {
+}
+
+label {
     font-weight: bold;
     margin-top: 10px;
     display: block;
     color: #023047;
-  }
-  
-  input, textarea {
+}
+
+input,
+textarea {
     width: 95%;
     padding: 10px;
     margin-top: 10px;
@@ -97,9 +126,9 @@ form {
     border-radius: 5px;
     font-size: 16px;
     resize: vertical;
-  }
-  
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     background-color: #FB8500;
     color: white;
     padding: 10px 20px;
@@ -108,9 +137,56 @@ form {
     cursor: pointer;
     float: right;
     margin-top: 10px;
-  }
-  
-  input[type="submit"]:hover {
+}
+
+input[type="submit"]:hover {
     background-color: #3e8e41;
-  }
+}
+
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+.gallery {
+    display: flex;
+    margin: 10px auto;
+    max-width: 600px;
+    position: relative;
+    padding-top: 66.6666666667%;
+}
+@media screen and (min-width: 600px) {
+    .gallery {
+        padding-top: 400px;
+   }
+}
+.gallery__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    height: 55vh;
+    
+}
+.gallery__thumb {
+    padding-top: 6px;
+    margin: 6px;
+    display: block;
+    width: 20vw;
+    height: 20vh;
   
+}
+.gallery__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.gallery__selector:checked + .gallery__img {
+    opacity: 1;
+}
+.gallery__selector:checked ~ .gallery__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+}

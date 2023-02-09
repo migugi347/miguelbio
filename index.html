@@ -8,7 +8,8 @@
 
 <body>
 
-    <header> </header alt="Decorative image of mountains">
+    <header> 
+        <img src="mountains.jpg"/ > </header alt="Decorative image of mountains">
 
 
 
@@ -80,40 +81,52 @@
     </table>
 
     <h2>Parks Visited and Want to Visit </h2>
-    <p></p>
+    
+<section class="gallery">
+    <div class="gallery__item">
+      <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="https://texaslodging.com/wp-content/uploads/2019/09/Jeremy-T.-Walls-1024x684.jpg" alt=""/>
+      <label for="img-1" class="gallery__thumb"><img src="https://texaslodging.com/wp-content/uploads/2019/09/Jeremy-T.-Walls-1024x684.jpg" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="https://cdn.britannica.com/46/193946-050-853B37E0/Yosemite-National-Park-California.jpg" alt="Image of Yosemite-National-Park-California"/>
+      <label for="img-2" class="gallery__thumb"><img src="https://cdn.britannica.com/46/193946-050-853B37E0/Yosemite-National-Park-California.jpg" alt="Image of Yosemite-National-Park-California"/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="https://thepointsguy.global.ssl.fastly.net/us/originals/2020/06/Rocky-Mountain-National-Park.jpg" alt="Picture of rocky mountain national park"/>
+      <label for="img-3" class="gallery__thumb"><img src="https://thepointsguy.global.ssl.fastly.net/us/originals/2020/06/Rocky-Mountain-National-Park.jpg" alt="Picture of rocky mountain national park"/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="https://cdn.aarp.net/content/dam/aarp/travel/Domestic/2021/04/1140-holei-sea-arch.jpg" alt="Picture of Hawaii Volcanoes National Park"/>
+      <label for="img-4" class="gallery__thumb"><img src="https://cdn.aarp.net/content/dam/aarp/travel/Domestic/2021/04/1140-holei-sea-arch.jpg" alt="Picture of Hawaii Volcanoes National Park"/></label>
+    </div>
+  </section>
 
-    <h2>Learn More About Texas A&M </h2>
+    <h2>Learn More About My School Texas A&M </h2>
     <p>To learn more about my School Texas A&M, visit the <a href="https://www.tamu.edu/">Official TAMU website</a>.</p>
 
 
 
-    <p>And here's an image with semantic meaning, a logo for Texas A&M University: <img src="TAM-Logo-white.jpg"
-            id="logo" alt="Logo for  Texas A&M University"></p>
+    <p>And here's an image with semantic meaning, a logo for Texas A&M University: </p>
+    <img src="TAM-Logo-white.jpg" id="logo" alt="Logo for  Texas A&M University">
 
     <h2>Contact Form</h2>
-    <!-- <form action="mailto:miguelgi347@tamu.edu" method="GET">
+    <form action="mailto:miguelgi347@tamu.edu" method="GET">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
-        
+
         <label for="email">Email:</label>
-        
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        
-        <input type="submit" value="Submit">
-      </form>    -->
-    <form action="mailto:josephquismorio@gmail.com" method="GET">
-        <h3>Name:</h3>
-        <input type="text" name="first_name" />
-        <h3>E-mail:</h3>
-        <input type="text" name="email" />
-        <h3>Subject:</h3>
-        <input type="text" name="subject" />
-        <h3>Message:</h3>
-        <textarea name="body"></textarea>
-        <button type="submit">Submit Form</button>
+
+        <input type="email" id="email" name="email" required></input>
+
+        <label type="text" name="subject"> Subject:<input type="text">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit" />
     </form>
 
 </body>
