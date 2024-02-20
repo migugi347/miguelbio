@@ -55,33 +55,33 @@ th {
 
 header {
     height: 300px;
-    
+
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 2%;
     overflow: hidden;
-   
+
 }
 
 header img {
-    
+
     position: relative;
     margin: 0;
-	padding: 0;
-	background: #fff;
-	width: 70vw;
+    padding: 0;
+    background: #fff;
+    width: 70vw;
     height: 50vh;
     margin-top: 200px;
-	-webkit-transform: scale(1.5);
-	transform: scale(1.5);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-    
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
 }
 
-header:hover img{ 
+header:hover img {
     margin-top: 0;
 }
 
@@ -146,10 +146,12 @@ input[type="submit"]:hover {
 * {
     box-sizing: border-box;
 }
+
 img {
     max-width: 100%;
     vertical-align: top;
 }
+
 .gallery {
     display: flex;
     margin: 10px auto;
@@ -157,11 +159,13 @@ img {
     position: relative;
     padding-top: 66.6666666667%;
 }
+
 @media screen and (min-width: 600px) {
     .gallery {
         padding-top: 400px;
-   }
+    }
 }
+
 .gallery__img {
     position: absolute;
     top: 0;
@@ -169,24 +173,62 @@ img {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     height: 55vh;
-    
+
 }
+
 .gallery__thumb {
     padding-top: 6px;
     margin: 6px;
     display: block;
     width: 20vw;
     height: 20vh;
-  
+
 }
+
 .gallery__selector {
     position: absolute;
     opacity: 0;
     visibility: hidden;
 }
-.gallery__selector:checked + .gallery__img {
+
+.gallery__selector:checked+.gallery__img {
     opacity: 1;
 }
-.gallery__selector:checked ~ .gallery__thumb > img {
+
+.gallery__selector:checked~.gallery__thumb>img {
     box-shadow: 0 0 0 3px #0be2f6;
+}
+
+.styled-button {
+    background-color: #4CAF50;
+    /* Green background */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Add shadow */
+    border: 2px solid #4CAF50;
+    /* Add outline with the same color as the background for a subtle effect */
+    outline: 3px solid #FFFFFF;
+    /* Additional outline to create a contrast, optional */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.styled-button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* Darker shadow on hover */
+    background-color: #45a049;
+    /* Slightly darker green on hover */
+}
+
+.styled-button span {
+    display: block;
+    /* Ensure spans are displayed in block mode to respect the <br> */
 }
