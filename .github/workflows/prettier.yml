@@ -10,13 +10,13 @@ on:
       - master
       - main
 
-#jobs:
-  #check:
-    # available images: https://github.com/actions/runner-images#available-images
-    #runs-on: ubuntu-latest
-    #steps:
-      #- name: Checkout 🛎️
-      #  uses: actions/checkout@v4
+jobs:
+  check:
+    available images: https://github.com/actions/runner-images#available-images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
       #- name: Setup Node.js ⚙️
       #  uses: actions/setup-node@v4
       #- name: Install Prettier 💾
