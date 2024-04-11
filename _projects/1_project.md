@@ -18,7 +18,6 @@ Zenji incorporates a dual-approach system combining heuristic algorithms and a m
 
 ### Interactive Learning with AI
 
-
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0 ">
         {% include figure.liquid loading="eager" path="assets/img/zenji_feedback.png" title="Real-time Kanji Feedback" class="img-fluid rounded z-depth-1" %}

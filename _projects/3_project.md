@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  KANM student radio
-description: Visit the Kanm student radio website 
+title: KANM student radio
+description: Visit the Kanm student radio website
 img: assets/img/KANMLogo.png
 redirect: https://kanm.tamu.edu
 importance: 3

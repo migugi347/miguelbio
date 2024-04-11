@@ -21,9 +21,7 @@
       "startDate": "2023-06-01",
       "endDate": "2023-08-01",
       "summary": "Oversaw deployments and maintained internal infrastructure as part of a DevOps/Runtime Engineering team. and Implemented best practices and automation strategies, reducing downtime and improving system reliability whilefostering a collaborative and growth-oriented work environment.",
-      "highlights": [
-        "Infrastucture, DevOps , Intern"
-      ]
+      "highlights": ["Infrastucture, DevOps , Intern"]
     }
   ],
   "volunteer": [
@@ -34,10 +32,7 @@
       "startDate": "2014-04-01",
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
-        "Men of the year 2014 by Time magazine"
-      ]
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
@@ -50,13 +45,7 @@
       "startDate": "2020-09-01",
       "endDate": "2024-05-01",
       "score": "10",
-      "courses": [
-        "Data Structures and Algorithms",
-        "Wireless Networking Systems",
-        "Discrete Math",
-        "Machine learning",
-        "AI"
-      ]
+      "courses": ["Data Structures and Algorithms", "Wireless Networking Systems", "Discrete Math", "Machine learning", "AI"]
     }
   ],
   "awards": [
@@ -140,31 +129,13 @@
       "name": "Languages:",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Java",
-        "Python",
-        "C++",
-        "Javascript",
-        "Haskell",
-        "HTML/CSS"
-      ]
+      "keywords": ["Java", "Python", "C++", "Javascript", "Haskell", "HTML/CSS"]
     },
     {
       "name": "Tools and Frameworks:",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Firebase",
-        "Tensorflow",
-        "Git",
-        "Linux",
-        "Flask",
-        "Bootstrap",
-        "React.JS",
-        "Azure DevOps",
-        "Gitlab",
-        "Juypter Notebook"
-      ]
+      "keywords": ["Firebase", "Tensorflow", "Git", "Linux", "Flask", "Bootstrap", "React.JS", "Azure DevOps", "Gitlab", "Juypter Notebook"]
     }
   ],
   "languages": [
@@ -183,13 +154,7 @@
     {
       "name": "Computer Science",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Machine Learning",
-        "Artificial Intelligence",
-        "System Architecture",
-        "Backend Development",
-        "Frontend Development"
-      ]
+      "keywords": ["Machine Learning", "Artificial Intelligence", "System Architecture", "Backend Development", "Frontend Development"]
     }
   ],
   "references": [
@@ -208,11 +173,7 @@
     {
       "name": "Kanji Learning App",
       "summary": "Kanji learning app, teaches users to write kanji correctly. WIP.",
-      "highlights": [
-        "PWA",
-        "Machine learning",
-        "Firebase"
-      ],
+      "highlights": ["PWA", "Machine learning", "Firebase"],
       "startDate": "2024-01-01",
       "endDate": "2024-05-01",
       "url": "https://zenji-1e015.web.app"
@@ -220,11 +181,7 @@
     {
       "name": "Predictive Medical Model",
       "summary": "Optimized data for machine learning models, utilizing advanced techniques to ensure high data quality. Evaluated multiple predictive models, employing rigorous methodologies to select the most accurate model. Fine-tuned model hyperparameters and utilized statistical analysis in order to ensure high accuracy.",
-      "highlights": [
-        "Python",
-        "Pytorch",
-        "Machine learning"
-      ],
+      "highlights": ["Python", "Pytorch", "Machine learning"],
       "startDate": "2023-04-01",
       "endDate": "2023-01-01",
       "url": "https://www.kaggle.com/competitions/csce-421-machine-learning-spring-2023-section-500/leaderboard"
@@ -232,21 +189,14 @@
     {
       "name": "CPU Simulator",
       "summary": "Led a team of 4 to develop a functioning simulator of an x86 CPU.Successfully converted machine level instructions into C functions and expressions. Devised each simulated step of a processor from the Fetch stage up to the Program Counter stage",
-      "highlights": [
-        "Logisim",
-        "C",
-        "Computer Architecture"
-      ],
+      "highlights": ["Logisim", "C", "Computer Architecture"],
       "startDate": "2022-5-01",
       "endDate": "2022-05-01"
     },
     {
       "name": "KANM Student Radio Website",
       "summary": "Coordinated with a team of 10 to develop a working UI for the A&M student radio club website utilizing React JS. Developed working front-end components with Figma to envision user interface design.",
-      "highlights": [
-        "Website Dev",
-        "React.JS"
-      ],
+      "highlights": ["Website Dev", "React.JS"],
       "startDate": "2022-01-01",
       "endDate": "2022-01-01",
       "url": "https://kanm.tamu.edu"

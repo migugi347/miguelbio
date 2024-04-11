@@ -24,7 +24,6 @@ The Predictive Medical Model is designed to optimize healthcare delivery by prov
 
 ### Predictive Model AUC performance
 
-
 <div class="row justify-content-center ">
     <div class="col-sm-8 mt-3  mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/AUC.png" title="AUC of XGBoost model" class="img-fluid rounded z-depth-1" %}
