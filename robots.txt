@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://migugi347.github.io/sitemap.xml
